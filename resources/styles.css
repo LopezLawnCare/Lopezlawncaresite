@@ -1,0 +1,78 @@
+<style>
+
+body  {
+ 
+}
+
+@font-face {
+    font-family: customFont;
+    src: url("Lii_____.ttf");
+}
+
+.header {
+padding: 10px;
+font-weight:normal;
+font-style:normal;
+font-family: customfont;
+}
+
+
+.header h1 {
+  color: #7CFC00;
+  font-family: 'customFont';
+  font-size: 100px;
+  text-align: center;
+}
+ 
+ .info {
+	padding: 1px;
+ }
+
+.info h1 {
+	color: red;
+	font-family: courier;
+	font-size: 100%;
+	text-align: center;
+}
+
+ .info p {
+	color: red;
+	font-family: courier;
+	font-size: 100%;
+	text-align: center;
+}
+
+.images{
+	padding: 50px;
+	text-align: center;
+	
+}
+.images2{
+	padding: 50px;
+	text-align: center;
+}
+.images3{
+	padding: 50px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+  position: fixed;
+  padding: 1px;
+  text-align: center;
+  background: #5491e8;
+  bottom: 0%;
+  left: 0%;
+  font-size: 10px;
+}
+
+
+</style>
