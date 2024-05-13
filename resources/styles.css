@@ -4,14 +4,16 @@ body  {
  
 }
 
+/* custom font */
 @font-face {
     font-family: customFont;
     src: url("Lii_____.ttf");
 }
 
+/* header styles */
+
 .header {
 padding: 10px;
-font-weight:normal;
 font-style:normal;
 font-family: customfont;
 }
@@ -22,9 +24,12 @@ font-family: customfont;
   font-family: 'customFont';
   font-size: 100px;
   text-align: center;
+  font-weight:normal;
 }
  
- .info {
+ /* body text styles */
+
+.info {
 	padding: 1px;
  }
 
@@ -42,6 +47,8 @@ font-family: customfont;
 	text-align: center;
 }
 
+/* images styles - centering */
+
 .images{
 	padding: 50px;
 	text-align: center;
@@ -56,25 +63,19 @@ font-family: customfont;
 	text-align: center;
 }
 
+
+/* facbook iframe style */
 .facebook {
 	text-align: center;
 	
 }
 
 
-/*need to edit
-@media screen and (max-width:
-400PX) {
-  .images {
-    float: none;
-    width: 100%;
-  }
-
-*/
 
 
 
 
+/* footer */
 .footer {
   position: fixed;
   padding: 1px;
