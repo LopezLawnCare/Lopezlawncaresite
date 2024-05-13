@@ -61,6 +61,12 @@ font-family: customfont;
 	
 }
 
+@media screen and (max-width:
+400PX) {
+  .images {
+    float: none;
+    width: 100%;
+  }
 
 
 
