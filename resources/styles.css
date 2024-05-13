@@ -64,7 +64,7 @@ font-family: customfont;
 
 need to edit
 @media screen and (max-width:
-700PX) {
+400PX) {
   .images {
     float: center;
     width: 100%;
