@@ -5,12 +5,16 @@ body  {
 }
 
 /* custom font */
+/* place .ttf in resources on github and change the .ttf in quotes to switch fonts */
+
 @font-face {
     font-family: customFont;
     src: url("Lii_____.ttf");
 }
 
 /* header styles */
+/* change text color with the "color:" property use hex colors for best results */
+/* change font size with the "font-size:" property */
 
 .header {
 padding: 10px;
@@ -27,7 +31,9 @@ font-family: customfont;
   font-weight:normal;
 }
  
- /* body text styles */
+/* body text styles */
+/* change text color with the "color:" property use hex colors for best results */
+/* change font size with the "font-size:" property */
 
 .info {
 	padding: 1px;
@@ -62,7 +68,24 @@ font-family: customfont;
 	padding: 50px;
 	text-align: center;
 }
+/* this is text that diplays above images on hompage */
+/* change text color with the "color:" property use hex colors for best results */
 
+.images p {
+	color: red;
+	text-align: center;
+	font-size: 10px;
+}
+.images2 p {
+	color: red;
+	text-align: center;
+	font-size: 10px;
+}
+.images3 p {
+	color: red;
+	text-align: center;
+	font-size: 10px;
+}
 
 /* facbook iframe style */
 .facebook {
