@@ -19,11 +19,18 @@ body  {
 /* change font size with the "font-size:" property */
 
 .header {
-padding: 10px;
-font-style:normal;
-font-family: customfont;
+	padding: 10px;
+	font-style:normal;
+	font-family: customfont;
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
 }
 
+/* header fade controls */ /*don't touch */
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
 
 .header h1 {
   color: #228B22;
