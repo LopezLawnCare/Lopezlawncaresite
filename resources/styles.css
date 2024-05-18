@@ -1,8 +1,9 @@
 
 body  {
  padding: 1px;
- background-color: lightBlue;
-}
+ background-image: url("/resources/br2.jpg");
+ background-repeat: no-repeat;
+ }
 
 /* custom font */
 /* place .ttf in resources on github and change the .ttf in quotes to switch fonts */
@@ -26,9 +27,9 @@ font-family: customfont;
 .header h1 {
   color: #228B22;
   font-family: 'customFont';
-  font-size: 100px;
+  font-size: 110px;
   text-align: center;
-  font-weight:normal;
+  font-weight: normal;
 }
 
 /* body text styles */
@@ -42,15 +43,16 @@ font-family: customfont;
 .info h1 {
 	color: red;
 	font-family: courier;
-	font-size: 100%;
+	font-size: 30px;
 	text-align: center;
 }
 
  .info p {
 	color: red;
 	font-family: courier;
-	font-size: 100%;
+	font-size: 25px;
 	text-align: center;
+	font-weight: bold;
 }
 
 /* images styles - centering */
