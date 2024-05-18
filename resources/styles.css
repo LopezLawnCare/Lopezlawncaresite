@@ -1,7 +1,7 @@
-<style>
 
 body  {
- 
+ padding: 1px;
+ background-color: lightBlue;
 }
 
 /* custom font */
@@ -30,7 +30,7 @@ font-family: customfont;
   text-align: center;
   font-weight:normal;
 }
- 
+
 /* body text styles */
 /* change text color with the "color:" property use hex colors for best results */
 /* change font size with the "font-size:" property */
@@ -68,7 +68,7 @@ font-family: customfont;
 	padding: 50px;
 	text-align: center;
 }
-/* this is text that diplays above images on hompage */
+/* this is text that displays above images on homepage */
 /* change text color with the "color:" property use hex colors for best results */
 
 .images p {
@@ -87,10 +87,9 @@ font-family: customfont;
 	font-size: 10px;
 }
 
-/* facbook iframe style */
-.facebook {
+/* facebook iframe style */
+.facebookWrapper {
 	text-align: center;
-	
 }
 
 
@@ -109,5 +108,3 @@ font-family: customfont;
   font-size: 10px;
 }
 
-
-</style>
