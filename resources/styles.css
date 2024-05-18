@@ -2,8 +2,9 @@
 body  {
  padding: 1px;
  background-image: url("/resources/br2.jpg");
- background-repeat: no-repeat;
- }
+ background-repeat: repeat-y;
+
+}
 
 /* custom font */
 /* place .ttf in resources on github and change the .ttf in quotes to switch fonts */
