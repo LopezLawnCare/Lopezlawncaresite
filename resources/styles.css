@@ -10,7 +10,7 @@ background-blend-mode:darken;
 
 @font-face {
     font-family: customFont;
-    src: url("HandDrawnLawn-Exae.ttf");
+    src: url("RocketRinder-yV5d.ttf");
 }
 
 /* header styles */
@@ -18,9 +18,10 @@ background-blend-mode:darken;
 /* change font size with the "font-size:" property */
 
 .image-wrapper {
-	padding: 10px;
+	padding: 10px 10px 10px 10px ;
 	width: 100% ;
 	text-align: center;
+	height: auto;
 }
 
 
@@ -56,18 +57,19 @@ background-blend-mode:darken;
  }
 
 .info h1 {
-	color: red;
-	font-family: courier;
+	color: rgb(185, 13, 13);
+	font-family: customfont;
 	font-size: 30px;
 	text-align: center;
+	font-weight: lighter;
 }
 
  .info p {
-	color: red;
-	font-family: courier;
+	color: rgb(185, 13, 13);
+	font-family: customfont;
 	font-size: 25px;
 	text-align: center;
-	font-weight: bold;
+	font-weight: lighter;
 }
 
 /* images styles - centering */
